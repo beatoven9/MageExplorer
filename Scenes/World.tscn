@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/MagePlayer.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Block.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/DungeonTiles/FloorTile.png" type="Texture" id=3]
+
+[node name="World" type="Node2D"]
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 164, 90 )
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 360, 180 )
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 1
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="MagePlayer" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( 64, 27 )
+
+[node name="StaticBody2D" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 8, 24 )
+
+[node name="StaticBody2D2" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 8, 40 )
+
+[node name="StaticBody2D3" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 8, 8 )
+
+[node name="StaticBody2D4" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 8, 56 )
+
+[node name="StaticBody2D5" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 8, 72 )
+
+[node name="StaticBody2D6" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 8, 88 )

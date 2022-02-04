@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/DungeonFloorTiles.png-0cacb1902f42bb402d151364f3cf9691.stex"
+path="res://.import/FloorTile.png-823e59c6f8764e857ca7cb3ad57fe2cd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/DungeonTiles/DungeonFloorTiles.png"
-dest_files=[ "res://.import/DungeonFloorTiles.png-0cacb1902f42bb402d151364f3cf9691.stex" ]
+source_file="res://Assets/DungeonTiles/FloorTile.png"
+dest_files=[ "res://.import/FloorTile.png-823e59c6f8764e857ca7cb3ad57fe2cd.stex" ]
 
 [params]
 

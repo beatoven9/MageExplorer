@@ -5,7 +5,7 @@
 
 [sub_resource type="CapsuleShape2D" id=26]
 radius = 3.0
-height = 4.0
+height = 2.0
 
 [sub_resource type="Animation" id=28]
 resource_name = "Attack_Down"

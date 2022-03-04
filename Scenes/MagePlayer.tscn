@@ -414,3 +414,6 @@ parameters/playback = SubResource( 42 )
 parameters/Attack/blend_position = Vector2( -0.00441921, 0.0019573 )
 parameters/Idle/blend_position = Vector2( 0, 0 )
 parameters/Walk/blend_position = Vector2( -0.0216095, -0.0365692 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
